@@ -1,0 +1,10 @@
+node_modules
+dist
+.output
+.nitro
+.vinxi
+.tanstack
+tsconfig.tsbuildinfo
+src/routeTree.gen.ts
+.env
+.DS_Store
