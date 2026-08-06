@@ -1,45 +1,114 @@
-# Fork & Flame 🔥
+# 🍽️ Fork & Flame Restaurant
 
-Fire-cooked restaurant website — React 19 + TanStack Start + Vite + Tailwind CSS v4.
+A modern, elegant, and fully responsive restaurant website built using **React.js**, **Vite**, **JavaScript**, and **Tailwind CSS**. The project offers an immersive dining experience with a premium UI, interactive digital menu, shopping cart, and WhatsApp-based table reservation.
 
-## VS Code me chalane ka tarika
+## 🌐 Live Demo
 
-1. Folder ko VS Code me open karo: `code fork-and-flame`
-2. Node.js 20+ install hona chahiye (`node -v` se check karo)
-3. Dependencies install karo:
-   ```bash
-   npm install
-   ```
-4. Dev server start karo:
-   ```bash
-   npm run dev
-   ```
-5. Browser me kholo: http://localhost:8080
+**Website:** https://restaurant-website-steel-eta.vercel.app
 
-## Production build
+## ✨ Features
 
-```bash
-npm run build      # build banata hai
-npm run preview    # build ko locally test karo
+- 🍔 Modern Restaurant Landing Page
+- 🍽️ Interactive Full Menu with Categories
+- 🛒 Add to Cart Functionality
+- 💬 WhatsApp Table Reservation
+- 📱 Fully Responsive Design
+- 🎨 Premium UI/UX
+- ⭐ Food Ratings
+- 🍕 Multiple Cuisine Categories
+- 🥤 Beverages & Desserts Section
+- 🔥 Smooth Animations
+- ⚡ Fast Performance with Vite
+
+## 🛠️ Tech Stack
+
+- React.js
+- JavaScript (ES6+)
+- Vite
+- Tailwind CSS
+- React Router DOM
+- Lucide React
+- GSAP
+- Sonner Toast
+
+## 📂 Project Structure
+
+```
+src/
+│── assets/
+│── components/
+│── hooks/
+│── lib/
+│── routes/
+│── App.jsx
+│── main.jsx
 ```
 
-## GitHub pe push
+## 🚀 Installation
+
+Clone the repository
 
 ```bash
-git init
-git add .
-git commit -m "Fork & Flame website"
-git branch -M main
-git remote add origin https://github.com/<username>/fork-and-flame.git
-git push -u origin main
+git clone https://github.com/ankitraj1126p-developer/fork-and-flame-react-vite.git
 ```
 
-## Folder structure
+Go to the project folder
 
-- `src/routes/` — pages (`index.tsx` home, `login.tsx`, `signup.tsx`)
-- `src/components/` — GooeyNav, SplitText, BorderGlow, FloatingLines, SpecularButton, CartDrawer, FullMenuModal
-- `src/lib/` — `menu-data.ts` (saara menu), `cart-context.tsx`, `auth-context.tsx`
-- `src/assets/` — dish images + logo
-- `src/styles.css` — theme colors + animations
+```bash
+cd fork-and-flame-react-vite
+```
 
-Note: `src/routeTree.gen.ts` auto-generate hoti hai `npm run dev` chalane par.
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+Create production build
+
+```bash
+npm run build
+```
+
+Preview production build
+
+```bash
+npm run preview
+```
+
+## 📸 Screenshots
+
+> Add screenshots of the Home Page, Full Menu, Reservation Form, and Cart here.
+
+## 🌟 Highlights
+
+- Beautiful Hero Section
+- Premium Restaurant Theme
+- Interactive Menu Categories
+- Responsive Navigation
+- Shopping Cart
+- WhatsApp Reservation Integration
+- Attractive Food Cards
+- Smooth User Experience
+- Mobile Friendly
+- Optimized Performance
+
+## 👨‍💻 Author
+
+**Ankit Raj**
+
+🔗 GitHub  
+https://github.com/ankitraj1126p-developer
+
+🔗 LinkedIn  
+https://www.linkedin.com/in/ankit-raj-55106830a
+
+## 📄 License
+
+This project is developed for educational and portfolio purposes.
